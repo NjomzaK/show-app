@@ -9,7 +9,7 @@ import {
 } from "@mui/joy";
 export default function MovieList({ movies }) {
   let imgUrl = "https://image.tmdb.org/t/p/w500";
-  let defaultMovieImg = "../../public/default-image.jpg";
+  let defaultMovieImg = "../default-image.jpg";
 
   return (
     <Grid container spacing={2} sx={{ flexGrow: 1 }}>

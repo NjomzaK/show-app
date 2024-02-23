@@ -10,7 +10,7 @@ import {
 
 export default function ShowList({ shows }) {
   let imgUrl = "https://image.tmdb.org/t/p/w500";
-  let defaultMovieImg = "../../public/default-image.jpg";
+  let defaultMovieImg = "../default-image.jpg";
 
   return (
     <Grid container spacing={2} sx={{ flexGrow: 1 }}>
