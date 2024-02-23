@@ -11,9 +11,12 @@ export default function MovieHeader({
   return (
     <Grid className="header" container spacing={2} sx={{ flexGrow: 1 }}>
       <Grid xs={1}>
+        <a href="/">Home</a>
+      </Grid>
+      <Grid xs={1}>
         <a href="#">Movie App</a>
       </Grid>
-      <Grid xs={8}>
+      <Grid xs={7}>
         <nav className="navigation">
           {arr.map((value, position) => (
             <Link

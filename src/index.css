@@ -109,10 +109,10 @@ button:focus-visible {
 }
 
 .home {
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 .nav {
   margin-left: 130%;
-  margin-top: -50%;
+  margin-top: -40%;
   font-size: 1.5em;
 }

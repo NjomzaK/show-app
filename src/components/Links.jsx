@@ -6,8 +6,8 @@ export const Links = () => {
   return (
     <nav className="nav">
       <Box
-        height={180}
-        width={180}
+        height={150}
+        width={150}
         my={4}
         display="center"
         alignItems="center"
@@ -17,8 +17,8 @@ export const Links = () => {
         <Link to="/MovieApp">Movies</Link>
       </Box>
       <Box
-        height={180}
-        width={180}
+        height={150}
+        width={150}
         display="center"
         alignItems="center"
         p={3}

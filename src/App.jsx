@@ -3,19 +3,21 @@ import { Links } from "./components/Links";
 import { ShowApp } from "./components/ShowApp";
 import { MovieApp } from "./components/MovieApp";
 import { Home } from "./components/Home";
-import { Box } from "@mui/joy";
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
 
-        <Route path="MovieApp" element={<MovieApp />}></Route>
+          <Route path="MovieApp" element={<MovieApp />}></Route>
 
-        <Route path="ShowApp" element={<ShowApp />}></Route>
-      </Routes>
+          <Route path="ShowApp" element={<ShowApp />}></Route>
+        </Routes>
 
-      <Links />
+        {window.location.pathname === "/" && <Links />}
+      </BrowserRouter>
     </>
   );
 }
