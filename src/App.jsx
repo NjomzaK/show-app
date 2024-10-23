@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import { Links } from "./components/Links";
 import { ShowApp } from "./components/ShowApp";
 import { MovieApp } from "./components/MovieApp";
 import { Home } from "./components/Home";
@@ -15,8 +14,6 @@ function App() {
 
           <Route path="ShowApp" element={<ShowApp />}></Route>
         </Routes>
-
-        {window.location.pathname === "/" && <Links />}
       </BrowserRouter>
     </>
   );
